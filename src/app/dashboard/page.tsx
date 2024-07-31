@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Head from 'next/head'
 import Image from 'next/image'
