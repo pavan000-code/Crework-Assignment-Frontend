@@ -1,0 +1,92 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registerBox {
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    color: #4534AC;
+  }
+  
+  .subtitle {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .inputGroup {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup input {
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .signupButton {
+    background-color: #4C38C2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 350px;
+    
+  }
+  
+  .loginPrompt {
+    margin-top: 20px;
+  }
+  
+  .loginPrompt a {
+    color: #0054A1;
+    text-decoration: none;
+  }
+  
+
+  .passwordInput {
+    position: relative;
+    width: 100%;
+  }
+  
+  .eyeIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  

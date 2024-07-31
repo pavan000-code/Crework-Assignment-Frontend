@@ -1,0 +1,190 @@
+.card {
+  width: 670px;
+  height: 200px;;
+  border: none;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.titleInput {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 70%;
+  
+}
+
+.actionButtons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.properties {
+  margin-bottom: 20px;
+}
+
+.property {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.propertyName {
+  color: #666;
+}
+
+.propertyValue {
+  color: #999;
+}
+
+.addProperty {
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: relative;
+}
+
+.blueLine {
+  height: 2px;
+  background-color: #0066cc;
+  margin-bottom: 5px;
+}
+
+.sizeInfo {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0066cc;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+
+.statusSelect {
+  margin-left: 10px;
+  padding: 5px;
+  font-family: 'Barlow, sans-serif';
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.statusField {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.statusDisplay {
+  position: relative;
+  margin-left: 10px;
+}
+
+.statusDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.statusDropdown div {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.statusDropdown div:hover {
+  background-color: #f0f0f0;
+}
+
+.fieldContent {
+  display: flex;
+  align-items: center;
+}
+
+.placeholder {
+  margin-left: 10px;
+}
+
+.deadlineField {
+  margin-top: 16px; /* Adjust this value to match the gap between status and priority */
+}
+
+.descriptionField {
+  margin-top: 16px; /* Same gap as between other fields */
+}
+
+.descriptionInput {
+  border: none;
+  outline: none;
+  font-family: 'Barlow, sans-serif';
+  font-size: 16px;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.customPropertyButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.customPropertyButton span {
+  margin-left: 8px;
+  color: #666666;
+}
+
+.horizontalLine {
+  height: 1px;
+  background-color: #DEDEDE;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.dragFileText {
+  color: #C0BDBD;
+  font-family: 'Inter', sans-serif;
+  
+  margin-top: 16px;
+}
+
+
+.addTaskButton {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.addTaskButton:hover {
+  background-color: #0043a4;
+}
